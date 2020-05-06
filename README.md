@@ -2,6 +2,7 @@
 A Python tool for migrating REP from Augur V1 to V2
 
 * Python 3.6+ required
+* USB Libs required: `sudo apt-get install libusb-1.0-0-dev libudev-dev`
 
 ## Setup
 

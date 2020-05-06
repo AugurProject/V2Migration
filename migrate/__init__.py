@@ -4,6 +4,7 @@ import time
 from web3.providers import HTTPProvider
 from web3 import Web3
 from eth_account import Account
+from migrate.ledger import LedgerAccount
 
 from migrate.legacy_rep import LEGACY_REP_ADDRESS, LEGACY_REP_ABI
 from migrate.rep import REP_ADDRESS, REP_ABI
@@ -16,6 +17,15 @@ legacyReputationToken = w3.eth.contract(address=LEGACY_REP_ADDRESS, abi=LEGACY_R
 reputationToken = w3.eth.contract(address=REP_ADDRESS, abi=REP_ABI)
 
 def migrate():
+    try:
+        ledger = LedgerAccount()
+        print(ledger.address)
+    except Exception as e:
+        print("Couldn't load ledger account: %s" % e)
+        sys.exit()
+
+    sys.exit()
+
     private_key = os.environ.get('ETHEREUM_PRIVATE_KEY')
 
     if not private_key:
