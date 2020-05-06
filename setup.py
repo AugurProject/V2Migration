@@ -16,9 +16,7 @@ setup(
     url='https://github.com/augurproject/V2Migration',
     include_package_data=True,
     install_requires=[
-        "attrdict==2.0.1",
         "web3==5.9.0",
-        "hidapi>=0.7.99",
     ],
     setup_requires=['setuptools-markdown'],
     python_requires='>=3.6,<4',

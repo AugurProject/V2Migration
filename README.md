@@ -2,7 +2,6 @@
 A Python tool for migrating REP from Augur V1 to V2
 
 * Python 3.6+ required
-* USB Libs required: `sudo apt-get install libusb-1.0-0-dev libudev-dev`
 
 ## Setup
 
@@ -32,7 +31,3 @@ ETHEREUM_PRIVATE_KEY=[PRIVATE_KEY] migrate
 ```
 
 The script will wait for confirmation of the action it will take before signing and sending transactions.
-
-## Future
-
-Ledger support will be added in the next release
