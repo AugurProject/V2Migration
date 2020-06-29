@@ -1,5 +1,5 @@
 # Augur v2: REP Migration
-_Deployment: July 28th, 2020 _
+__Deployment: July 28th, 2020__
 
 
 ## Table of Contents
