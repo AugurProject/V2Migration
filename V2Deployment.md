@@ -108,7 +108,7 @@ c) Trade both REPv1 and REPv2 for a bit, giving users time to withdraw and migra
 
 Disputed markets provide an eight week prior notice of a potential fork. Fast disputing in Augur v2 is turned off if this occurs and defaults to weekly cycles at that time. The Augur community should detect this very early on and begin signaling to the rest of the ecosystem that a potential fork is looming. 
 
-If and when a market does fork, you will have 60-days to participate in the fork with your users REP (REPv1 or REPv2) deposits / balances, else their tokens will be functionally useless within the Augur protocol. 
+If and when a market does fork, you will have within 60 days of the start of the forking period to participate in the fork with your users REP (REPv1 or REPv2) deposits / balances, else their tokens will be functionally useless within the Augur protocol. 
 
 This is intended to be an extremely rare occurrence, a last resort, costing millions and millions of dollars to perform for the parties initiating the fork. No market has gotten close to a fork in current Augur v1, and REP holders have gotten quite good at resolving markets quickly and accurately. However, if and when a fork does occur, exchanges will need to handle the fork with their customers REP balances. The forking mechanism is the core of Augur's security model. 
 
