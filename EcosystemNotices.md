@@ -63,14 +63,12 @@
 | DDEX            |              |              |
 | DeFiner         |              |              |
 | ercDEX          |              |              |
-| Gnosis Protocol |              |              |
 | IDEX            |              |              |
 | Instadapp       |              |              |
 | Kyber           |              |              |
 | Leverj          |              |              |
-| Maker           |              |              |
+| Maker/OASIS     |              |              |
 | Nuo             |              |              |
-| Oasis App       |              |              |
 | RadarRelay      |              |              |
 | Switch AG       |              |              |
 | TokenLon        |              |              |
