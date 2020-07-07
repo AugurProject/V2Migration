@@ -13,7 +13,7 @@
 | BitBay          |              |              |                |                   |
 | Bitbns          |              |              |                |                   |
 | Bitfinex        |              |              |                |                   |
-| Bithumb         |              |              |                |                   |
+| Bithumb         |**✘**         |              |                |                   |
 | Bitmart         |              |              |                |                   |
 | Bitsdaq         |              |              |                |                   |
 | Bittrex         |              |              |                |                   |
@@ -33,7 +33,7 @@
 | HitBTC          |              |              |                |                   |
 | Independent Res |              |              |                |                   |
 | Indodax         |              |              |                |                   |
-| Kraken          |              |              |                |                   |
+| Kraken          |**✘**         |              |                |                   |
 | LAToken         |              |              |                |                   |
 | Livecoin        |              |              |                |                   |
 | Mercatox        |              |              |                |                   |
@@ -118,7 +118,8 @@
 | EtherChain     |              |              |
 | EtherScan      |**✘**         |[Link](https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862)|
 | Ethplorer      |              |              |
-| OnChainFX      |              |              |
+| OnChainFX      |**✘**         |              |
+| Messari        |**✘**         |              |
 | Trading View   |              |              |
 
 #### Additional / Services:
