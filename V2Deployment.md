@@ -48,11 +48,13 @@ __Deployment: July 28th, 2020__
 
 - Augur v2 requires users to manually migrate their current REP tokens <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">(0x1985..)</a> to a new REP token (“REPv2”). 
 
+- The currently active REP token should universally be renamed to ("REPv1") as soon as possible to support a smooth migration.
+
 - Augur v2 requires <b>mandatory participation</b> of all REP holders in the event of a 60-day network wide market fork.
 
 - Exchanges that custody REP tokens will need to prepare for the new REPv2 token, and define a process of handling a fork. 
 
-- REPv2 cannot be converted back to REP after it is initially migrated. 
+- REPv2 cannot be converted back to REPv1 after it is initially migrated. 
 
 ## Augur v2 Deployment
 
@@ -64,52 +66,49 @@ Each deployment exists in their own "universe", unaware of each-other's existenc
 
 The following is proposed to be adopted as the REP naming convention for Augur v2’s deployment. 
 
-a) The new REP token to be deployed upon launch to be named “REPv2”.
+a) Immediately, block explorers, exchanges, wallet providers, etc to rename the current REP token <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">(0x1985..)</a> to “REPv1”.
 
-b) The current REP token <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">(0x1985..)</a> to maintain the name "REP".
-
-**After careful consideration and hearing from a variety of different REP holders and ecosystem participants, the overwhelming consensus and feedback is that the simplest and best path forward for the community is to simply have the current REP token maintain the name "REP", and not rename it to "REPv1", as initially announced and planned.** 
-
-c) ~~Immediately, block explorers, exchanges, wallet providers, etc to rename the current REP token <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">(0x1985..)</a> to “REPv1”.~~
-
+b) The new REP token to be deployed upon launch to be named “REPv2”.
 
 ## Users - REP Migration
 
-Augur v2 is a new universe. New REP tokens are not minted, instead, Augur v2 will allow for a manual migration of Augur v1 REP tokens ("REP") to Augur v2 REP tokens ("REPv2"). If you wish to participate as a reporter in the Augur v2 universe, you will need REPv2. 
+Augur v2 is a new universe. New REP tokens are not minted, instead, Augur v2 will allow for a manual migration of Augur v1 REP tokens ("REPv1") to Augur v2 REP tokens ("REPv2"). If you wish to participate as a reporter in the Augur v2 universe, you will need REPv2. 
 
-There is no immediate requirement to migrate REP to the new REPv2 upon deployment. However, migration should be encouraged, as the new Augur v2 universe needs active reporters with REPv2 tokens ensuring that markets resolve accurately.  A disputed market will take at least two months (8 weeks) to reach the state of a fork, and the forking period is also two months (8 weeks), meaning there is a minimum period of 4 months (16 weeks) for users to migrate their REP to REPv2, with a maximum possibility of forever / never technically needing to. 
+There is no immediate requirement to migrate REPv1 to the new REPv2 upon deployment. However, migration should be encouraged, as the new Augur v2 universe needs active reporters with REPv2 tokens ensuring that markets resolve accurately.  A disputed market will take at least two months (8 weeks) to reach the state of a fork, and the forking period is also two months (8 weeks), meaning there is a minimum period of 4 months (16 weeks) for users to migrate their REPv1 to REPv2, with a maximum possibility of forever / never technically needing to. 
 
-> <b>Summary for REP holders:</b> Migrate your REP to REPv2 at some point after Augur v2's deployment. A migration tool will be provided within the Augur UI, and a full tutorial on doing so will be published. 
+> <b>Summary for REP holders:</b> Migrate your REPv1 to REPv2 at some point after Augur v2's deployment. A migration tool will be provided within the Augur UI, and a full tutorial on doing so will be published. 
 
 ## Users - Use It Or Lose It
 
-The primary change surrounding the REP token in Augur v2’s deployment is the reintroduction of the “use it or lose it” concept, described in the original Augur whitepaper. This addition requires that all REP holders (REP or REPv2) must participate in a network wide market fork on Augur v2. If and when a fork does occur, a 60-day forking window begins, and all REP holders (REP or REPv2) must pick an outcome and participate in the forking process. 
+The primary change surrounding the REP token in Augur v2’s deployment is the reintroduction of the “use it or lose it” concept, described in the original Augur whitepaper. This addition requires that all REP holders (REPv1 or REPv2) must participate in a network wide market fork on Augur v2. If and when a fork does occur, a 60-day forking window begins, and all REP holders (REPv1 or REPv2) must pick an outcome and participate in the forking process. 
 
-If you have REP or REPv2 and do not participate in the 60-day forking process, your REP or REPv2 will be indefinitely unable to migrate past the Augur v2 universe. In other words, Augur v2’s contracts restrict any migration to forking universes after the 60-day forking period ends. 
+If you have REPv1 or REPv2 and do not participate in the 60-day forking process, your REPv1 or REPv2 will be indefinitely unable to migrate past the Augur v2 universe. In other words, Augur v2’s contracts restrict any migration to forking universes after the 60-day forking period ends. 
 
 Forking is an extreme situation for the Augur oracle, required to maintain network security and ensure users can trade in a universe that accurately represents reality. Augur v1 did not have any market forks, nor did a market dispute get even remotley close to that state.
 
 **It is currently estimated that a triggering a network wide market fork and fulfilling all prior dispute rounds would cost approximately ~$9,100,000 USD (~550k REPv2 at $16.50), with the "losing" side of the forks REPv2 being presumably worthless.**
 
-> <b>Summary for REP holders:</b> You must be prepared to access your REP or REPv2 and participate in a fork, with a minimum time of four months notice, and a maximum time of never (if a fork never occurs on Augur v2).  
+> <b>Summary for REP holders:</b> You must be prepared to access your REP and participate in a fork, with a minimum time of four months notice, and a maximum time of never (if a fork never occurs on Augur v2).  
 
 ## Exchanges - REP Migration
 
-Upon Augur v2’s deployment, exchanges will have to make a decision on how to handle REP and REPv2 for the users deposits and funds. Below we have outlined the plausible possibilities on how an exchange could handle the migration. 
+At any time after this notice is published, rename the current REP token to "REPv1". See ["REP Naming Convention"](#REP-Naming-Convention) above. 
 
-a) Trade only REPv2 from the start, automatically migrate users REP to REPv2 for them / allow for REP withdrawals. 
+Upon Augur v2’s deployment, exchanges will have to make a decision on how to handle REPv1 and REPv2 for the users deposits and funds. Below we have outlined the plausible possibilities on how an exchange could handle the migration. 
 
-b) Trade only REP from the start, giving users time to withdrawal and migrate, announce full migration of user balances on X date. 
+a) Trade only REPv2 from the start, automatically migrate users REPv1 to REPv2 for them / allow for REPv1 withdrawals. 
 
-c) Trade both REP and REPv2 for a bit, giving users time to withdraw and migrate, or support opt-in migration in the exchange/wallet directly.
+b) Trade only REPv1 from the start, giving users time to withdrawal and migrate, announce full migration of user balances on X date. 
 
-> <b>Summary for Exchanges: </b> Define how the exchange will handle the migration, and proceed upon Augur v2's deployment. 
+c) Trade both REPv1 and REPv2 for a bit, giving users time to withdraw and migrate, or support opt-in migration in the exchange/wallet directly.
+
+> <b>Summary for Exchanges: </b> Rename the current REP token to "REPv1". Define how the exchange will handle the migration, and proceed upon Augur v2's deployment. 
 
 ## Exchanges - Use It Or Lose It
 
 Disputed markets provide an eight week prior notice of a potential fork. Fast disputing in Augur v2 is turned off if this occurs and defaults to weekly cycles at that time. The Augur community should detect this very early on and begin signaling to the rest of the ecosystem that a potential fork is looming. 
 
-If and when a market does fork, you will have within 60 days of the start of the forking period to participate in the fork with your users REP (REP or REPv2) deposits / balances, else their tokens will be functionally useless within the Augur protocol. 
+If and when a market does fork, you will have within 60 days of the start of the forking period to participate in the fork with your users REP (REPv1 or REPv2) deposits / balances, else their tokens will be functionally useless within the Augur protocol. 
 
 This is intended to be an extremely rare occurrence, a last resort, costing millions and millions of dollars to perform for the parties initiating the fork. No market has gotten close to a fork in current Augur v1, and REP holders have gotten quite good at resolving markets quickly and accurately. However, if and when a fork does occur, exchanges will need to handle the fork with their customers REP balances. The forking mechanism is the core of Augur's security model. 
 
@@ -117,7 +116,7 @@ This is intended to be an extremely rare occurrence, a last resort, costing mill
 
 <b>Options:</b>
 
-a) Pick an outcome and migrate your users REPv2 for them (or, if you still have REP, migrate REP to REPv2 to then participate in the fork). 
+a) Pick an outcome and migrate your users REPv2 for them (or, if you still have REPv1, migrate REPv1 to REPv2 to then participate in the fork). 
 
 b) Allow users to pick an outcome from within your wallet and participate in the fork for them with their REP. 
 
@@ -127,9 +126,11 @@ Additionally, exchanges will have the 60-day forking period to allow users to wi
 
 ## DApps, Non-Custodial Exchanges - REP Migration
 
-Assuming your exchange or application does not take custody of users REP tokens, the migration should play out similar to the SAI to DAI migration by MakerDAO earlier this year. Users will need to withdraw the REP tokens and participate in the migration themselves, with no _immediate_ need to do so. To support the new REPv2 token upon deployment, you would need to list a new market or pool with the new REPv2 token, alongside the REP market or pool. 
+At any time after this notice is published, rename the current REP token to "REPv1". See ["REP Naming Convention"](#REP-Naming-Convention) above. 
 
-> <b>Summary for DApps, Non-Custodial Exchanges: </b> Alert your users of Augur v2's upcoming deployment by using the FAQ for users above. 
+Assuming your exchange or application does not take custody of users REP tokens, the migration should play out similar to the SAI to DAI migration by MakerDAO earlier this year. Users will be able to withdraw the REP tokens and participate in the migration themselves, with no _immediate_ need to do so. To support the new REPv2 token upon deployment, you would need to list a new market or pool with the new REPv2 token, alongside the REPv1 market or pool. 
+
+> <b>Summary for DApps, Non-Custodial Exchanges: </b> Rename the current REP token to "REPv1". Alert your users of Augur v2's upcoming deployment by using the FAQ for users above. 
 
 ## DApps, Non-Custodial Exchanges - Use It Or Lose It
 
@@ -139,9 +140,11 @@ Assuming your exchange **cannot** physically take custody of users REP tokens, t
 
 ## Wallets, Block Explorers, Service Providers - REP Migration
 
+At any time after this notice is published, rename the current REP token to "REPv1". See ["REP Naming Convention"](#REP-Naming-Convention) above. 
+
 Upon deployment of Augur v2, you can support the new REPv2 token simply by adding the new token contract, similar to any other Ethereum ERC-20 token. 
 
-> <b>Summary for Wallets, Block Explorers, Service Providers: </b> Alert your users of Augur v2's upcoming deployment by using the FAQ for users above. 
+> <b>Summary for Wallets, Block Explorers, Service Providers: </b> Rename the current REP token to "REPv1". Alert your users of Augur v2's upcoming deployment by using the FAQ for users above. 
 
 ## Wallets, Block Explorers, Service Providers - Use It Or Lose It
 
@@ -163,11 +166,11 @@ While this extreme case of a network wide fork is anticipated not to happen, thi
 
 ## Migration & Deployment Resources
 
-- Current REP token - <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">Etherscan</a>
+- Current REP token (to be renamed REPv1) - <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">Etherscan</a>
 
 - New REPv2 token (to be live upon deployment) - <a href="https://github.com/AugurProject/augur/blob/master/packages/augur-core/src/contracts/reporting/ReputationToken.sol">Source Code</a>
 
-- Augur v2 REP to REPv2 migration tools - <a href="https://github.com/AugurProject/V2Migration">Source Code</a>
+- Augur v2 REPv1 to REPv2 migration tools - <a href="https://github.com/AugurProject/V2Migration">Source Code</a>
 
 - Augur v2 contracts (to be live upon deployment) - <a href="https://github.com/AugurProject/augur/tree/master/packages/augur-core/src/contracts">Source Code</a>
 
