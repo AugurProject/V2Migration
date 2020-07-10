@@ -154,7 +154,7 @@ After a Augur v2 fork has occurred, you will need to update your products to ref
 
 ## REP Naming Convention In The Event Of A Fork
 
-In the extremely rare occurance of a network wide market fork on Augur v2, below is how the REPv2 naming convention will be handled on a technical level. Note: In the event of a REPv2 fork, it is anticipated that the community will handle it very similar to how a conventional, say Bitcoin and Bitcoin Cash fork, occurred. While the technical names can be complex, depending how controversial the fork is, it is assumed one side of the fork will collectively be deemed the "winner", and thus named accordingly by the ecosystem. 
+In the extremely rare occurance of a network wide market fork on Augur v2, below is how the REPv2 naming convention will be handled on a technical level. Note: In the event of a REPv2 fork, it is anticipated that the community will handle it very similar to how a conventional, say Ethereum and Ethereum Classic fork, occurred. While the technical names can be complex, depending how controversial the fork is, it is assumed one side of the fork will collectively be deemed the "winner", and thus named accordingly by the ecosystem. 
 
 Naming Convention for Forked REP: <b>REPv2_(OUTCOME)_(FORK_INDEX)</b>
 
