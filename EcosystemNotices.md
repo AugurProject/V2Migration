@@ -3,49 +3,49 @@
 
 ####  Exchanges:
 
-| Name            | Acknowledged | REPv1 Rename | REPv1 -> REPv2 | Use It or Lose It |
-|-----------------|--------------|--------------|----------------|-------------------|
-| Abra            |              |              |                |                   |
-| Bibox           |              |              |                |                   |
-| Bilaxy          |              |              |                |                   |
-| Binance         |**✘**         |              |                |                   |
-| Binance US      |**✘**         |              |                |                   |
-| BitBay          |              |              |                |                   |
-| Bitbns          |              |              |                |                   |
-| Bitfinex        |              |              |                |                   |
-| Bithumb         |**✘**         |              |                |                   |
-| Bitmart         |              |              |                |                   |
-| Bitsdaq         |              |              |                |                   |
-| Bittrex         |              |              |                |                   |
-| Chaoex          |              |              |                |                   |
-| Coinbase        |**✘**         |              |                |                   |
-| CoinBene        |              |              |                |                   |
-| CoinEx          |              |              |                |                   |
-| CoinField       |              |              |                |                   |
-| CoinTiger       |              |              |                |                   |
-| Crex24          |              |              |                |                   |
-| CROSS Exch      |              |              |                |                   |
-| Exrates         |              |              |                |                   |
-| Folgory         |              |              |                |                   |
-| Gate IO         |              |              |                |                   |
-| GOPAX           |              |              |                |                   |
-| Hanbitco        |              |              |                |                   |
-| HitBTC          |              |              |                |                   |
-| Independent Res |              |              |                |                   |
-| Indodax         |              |              |                |                   |
-| Kraken          |**✘**         |              |                |                   |
-| LAToken         |              |              |                |                   |
-| Livecoin        |              |              |                |                   |
-| Mercatox        |              |              |                |                   |
-| Omgfin          |              |              |                |                   |
-| OVEX            |              |              |                |                   |
-| Poloniex        |              |              |                |                   |
-| Polyx           |              |              |                |                   |
-| ProBit          |              |              |                |                   |
-| Rekeningku      |              |              |                |                   |
-| RightBTC        |              |              |                |                   |
-| Upbit           |              |              |                |                   |
-| Valr            |              |              |                |                   |
-| VCC             |              |              |                |                   |
-| VinDAX          |              |              |                |                   |
-| WazirX          |              |              |                |                   |
+| Name            | Acknowledged | REPv1 -> REPv2 | Use It or Lose It |
+|-----------------|--------------|----------------|-------------------|
+| Abra            |              |                |                   |                   
+| Bibox           |              |                |                   |                   
+| Bilaxy          |              |                |                   |                   
+| Binance         |**✘**         |                |                   |                   
+| Binance US      |**✘**         |                |                   |                   
+| BitBay          |              |                |                   |                   
+| Bitbns          |              |                |                   |                   
+| Bitfinex        |              |                |                   |                   
+| Bithumb         |**✘**         |                |                   |                   
+| Bitmart         |              |                |                   |                   
+| Bitsdaq         |              |                |                   |                   
+| Bittrex         |              |                |                   |                   
+| Chaoex          |              |                |                   |                   
+| Coinbase        |**✘**         |                |                   |                   
+| CoinBene        |              |                |                   |                   
+| CoinEx          |              |                |                   |                   
+| CoinField       |              |                |                   |                   
+| CoinTiger       |              |                |                   |                   
+| Crex24          |              |                |                   |                   
+| CROSS Exch      |              |                |                   |                   
+| Exrates         |              |                |                   |                   
+| Folgory         |              |                |                   |                   
+| Gate IO         |              |                |                   |                   
+| GOPAX           |              |                |                   |                   
+| Hanbitco        |              |                |                   |                   
+| HitBTC          |              |                |                   |                   
+| Independent Res |              |                |                   |                   
+| Indodax         |              |                |                   |                   
+| Kraken          |**✘**         |                |                   |                   
+| LAToken         |              |                |                   |                   
+| Livecoin        |              |                |                   |                   
+| Mercatox        |              |                |                   |                   
+| Omgfin          |              |                |                   |                   
+| OVEX            |              |                |                   |                   
+| Poloniex        |              |                |                   |                   
+| Polyx           |              |                |                   |                   
+| ProBit          |              |                |                   |                   
+| Rekeningku      |              |                |                   |                   
+| RightBTC        |              |                |                   |                   
+| Upbit           |              |                |                   |                   
+| Valr            |              |                |                   |                   
+| VCC             |              |                |                   |                   
+| VinDAX          |              |                |                   |                   
+| WazirX          |              |                |                   |                   
