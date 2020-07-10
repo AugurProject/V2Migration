@@ -102,7 +102,7 @@ Upon Augur v2’s deployment, exchanges will have to make a decision on how to h
 
 a) Trade only REP from the start, support both REP and REPv2 wallets (and deposits/withdrawals), announce full migration of user balances and the addition of a REPv2 market at X time. 
 
-b) Trade only REPv2 from the start, support both REPv2 and REP wallets (and deposits/withdrawals), announce full migration of user balances the removal of the REP market at X time. 
+b) Trade only REPv2 from the start, support both REP and REPv2 wallets (and deposits/withdrawals), announce full migration of user balances the removal of the REP market at X time. 
 
 c) Trade both REP and REPv2 from the start, support both REP and REPv2 wallets (and deposits/withdrawals), and announce discontinuation of the REP market at X date.
 
