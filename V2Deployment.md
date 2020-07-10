@@ -100,11 +100,11 @@ Forking is an extreme situation for the Augur oracle, required to maintain netwo
 
 Upon Augur v2’s deployment, exchanges will have to make a decision on how to handle REP and REPv2 for the users deposits and funds. Below we have outlined the plausible possibilities on how an exchange could handle the migration. 
 
-a) Trade only REPv2 from the start, support both REPv2 and REP wallets (and deposits/withdrawals), automatically migrate users REP to REPv2 for them.
+a) Trade only REP from the start, support both REP and REPv2 wallets (and deposits/withdrawals), announce full migration of user balances and the addition of a REPv2 market at X time. 
 
-b) Trade only REP from the start, support both REP and REPv2 wallets (and deposits/withdrawals), announce full migration of user balances and a REPv2 market on X date. 
+b) Trade only REPv2 from the start, support both REPv2 and REP wallets (and deposits/withdrawals), announce full migration of user balances the removal of the REP market at X time. 
 
-c) Trade both REP and REPv2 from the start, support both REP and REPv2 wallets (and deposits/withdrawals).
+c) Trade both REP and REPv2 from the start, support both REP and REPv2 wallets (and deposits/withdrawals), and announce discontinuation of the REP market at X date.
 
 Optinally, an exchange could decide to support opt-in migration from REP to REPv2 in the exchange/wallet directly.
 
