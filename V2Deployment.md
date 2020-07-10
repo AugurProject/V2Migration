@@ -70,7 +70,9 @@ b) The current REP token <a href="https://etherscan.io/address/0x1985365e9f78359
 
 **After hearing further from a variety of different users and entities, the overwhelming consensus and feedback is that the simplest and best path forward for REP holders and ecosystem participants is for the current REP token to simply maintain the name "REP" and not be renamed to "REPv1", as the initial plan announced and accounted for.** 
 
-Etherscan has been updated to reflect this change, as can be seen <a href="https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862">here</a>. Please feel free to <a href="mailto:migrate@augur.net">email</a> or reach out in the <a href="invite.augur.net">Augur Discord</a> with any questions, comments or concerns. 
+Etherscan has been updated to reflect this change, as can be seen <a href="https://etherscan.io/token/0x1985365e9f78359a9B6AD760e32412f4a445E862">here</a>.
+
+Please feel free to <a href="mailto:migrate@augur.net">email</a> or reach out in the <a href="invite.augur.net">Augur Discord</a> with any questions, comments or concerns. 
 
 c) ~~Immediately, block explorers, exchanges, wallet providers, etc to rename the current REP token <a href="https://etherscan.io/address/0x1985365e9f78359a9B6AD760e32412f4a445E862">(0x1985..)</a> to “REPv1”.~~
 
