@@ -10,36 +10,36 @@
 | Bilaxy          |              |                |                   |                   
 | Binance         |**✘**         |                |                   |                   
 | Binance US      |**✘**         |                |                   |                   
-| BitBay          |              |                |                   |                   
-| Bitbns          |              |                |                   |                   
-| Bitfinex        |              |                |                   |                   
+| BitBay          |**✘**               |                |                   |                   
+| Bitbns          |**✘**               |                |                   |                   
+| Bitfinex        |**✘**               |                |                   |                   
 | Bithumb         |**✘**         |                |                   |                   
 | Bitmart         |              |                |                   |                   
 | Bitsdaq         |              |                |                   |                   
 | Bittrex         |              |                |                   |                   
 | Chaoex          |              |                |                   |                   
 | Coinbase        |**✘**         |                |                   |                   
-| CoinBene        |              |                |                   |                   
-| CoinEx          |              |                |                   |                   
+| CoinBene        |**✘**               |                |                   |                   
+| CoinEx          |**✘**               |                |                   |                   
 | CoinField       |              |                |                   |                   
 | CoinTiger       |              |                |                   |                   
-| Crex24          |              |                |                   |                   
+| Crex24          |**✘**               |                |                   |                   
 | CROSS Exch      |              |                |                   |                   
 | Exrates         |              |                |                   |                   
 | Folgory         |              |                |                   |                   
-| Gate IO         |              |                |                   |                   
+| Gate IO         |**✘**               |                |                   |                   
 | GOPAX           |              |                |                   |                   
 | Hanbitco        |              |                |                   |                   
-| HitBTC          |              |                |                   |                   
+| HitBTC          |**✘**               |                |                   |                   
 | Independent Res |              |                |                   |                   
 | Indodax         |              |                |                   |                   
 | Kraken          |**✘**         |                |                   |                   
 | LAToken         |              |                |                   |                   
-| Livecoin        |              |                |                   |                   
-| Mercatox        |              |                |                   |                   
+| Livecoin        |**✘**               |                |                   |                   
+| Mercatox        |**✘**               |                |                   |                   
 | Omgfin          |              |                |                   |                   
 | OVEX            |              |                |                   |                   
-| Poloniex        |              |                |                   |                   
+| Poloniex        |**✘**               |                |                   |                   
 | Polyx           |              |                |                   |                   
 | ProBit          |              |                |                   |                   
 | Rekeningku      |              |                |                   |                   
