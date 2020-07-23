@@ -1,6 +1,8 @@
 
 ### <center> Augur v2 Deployment: Ecosystem Plans</center>
 
+**To Be Next Updated July 24th, 2020**
+
 ####  Exchanges:
 
 | Name            | Acknowledged | REPv1 -> REPv2 | Use It or Lose It |
