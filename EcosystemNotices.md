@@ -4,47 +4,47 @@
 ####  Exchanges:
 
 | Name            | Acknowledged | REP -> REPv2 | Use It or Lose It |
-|-----------------|--------------|----------------|-------------------|
-| Abra            |**✘**                   |                |                   |                   
-| Bibox           |**✘**                   |                |                   |                   
-| Bilaxy          |                 |                |                   |                   
+|-----------------|:------------:|----------------|-------------------|
+| Abra            |**✘**         |                |                   |                   
+| Bibox           |**✘**         |                |                   |                   
+| Bilaxy          |              |                |                   |                   
 | Binance         |**✘**         |                |                   |                   
 | Binance US      |**✘**         |                |                   |                   
-| BitBay          |**✘**               |                |                   |                   
-| Bitbns          |**✘**               |                |                   |                   
-| Bitfinex        |**✘**               |                |                   |                   
+| BitBay          |**✘**         |                |                   |                   
+| Bitbns          |**✘**         |                |                   |                   
+| Bitfinex        |**✘**         |                |                   |                   
 | Bithumb         |**✘**         |                |                   |                   
-| Bitmart         |**✘**                   |                |                   |                   
+| Bitmart         |**✘**         |                |                   |                   
 | Bitsdaq         |              |                |                   |                   
 | Bittrex         |              |                |                   |                   
 | Chaoex          |              |                |                   |                   
 | Coinbase        |**✘**         |                |                   |                   
-| CoinBene        |**✘**               |                |                   |                   
-| CoinEx          |**✘**               |                |                   |                   
-| CoinField       |**✘**                   |                |                   |                   
-| CoinTiger       |**✘**                   |                |                   |                   
-| Crex24          |**✘**               |                |                   |                   
+| CoinBene        |**✘**         |                |                   |                   
+| CoinEx          |**✘**         |                |                   |                   
+| CoinField       |**✘**         |                |                   |                   
+| CoinTiger       |**✘**         |                |                   |                   
+| Crex24          |**✘**         |                |                   |                   
 | CROSS Exch      |              |                |                   |                   
-| Exrates         |**✘**                   |                |                   |                   
+| Exrates         |**✘**         |                |                   |                   
 | Folgory         |              |                |                   |                   
-| Gate IO         |**✘**               |                |                   |                   
+| Gate IO         |**✘**         |                |                   |                   
 | GOPAX           |              |                |                   |                   
 | Hanbitco        |              |                |                   |                   
-| HitBTC          |**✘**               |                |                   |                   
-| Independent Res |**✘**                   |                |                   |                   
-| Indodax         |**✘**                   |                |                   |                   
+| HitBTC          |**✘**         |                |                   |                   
+| Independent Res |**✘**         |                |                   |                   
+| Indodax         |**✘**         |                |                   |                   
 | Kraken          |**✘**         |                |                   |                   
 | LAToken         |              |                |                   |                   
-| Livecoin        |**✘**               |                |                   |                   
-| Mercatox        |**✘**               |                |                   |                   
+| Livecoin        |**✘**         |                |                   |                   
+| Mercatox        |**✘**         |                |                   |                   
 | Omgfin          |              |                |                   |                   
 | OVEX            |              |                |                   |                   
-| Poloniex        |**✘**               |                |                   |                   
+| Poloniex        |**✘**         |                |                   |                   
 | Polyx           |              |                |                   |                   
 | ProBit          |              |                |                   |                   
 | Rekeningku      |              |                |                   |                   
 | RightBTC        |              |                |                   |                   
-| Upbit           |**✘**                   |                |                   |                   
+| Upbit           |**✘**         |                |                   |                   
 | Valr            |              |                |                   |                   
 | VCC             |              |                |                   |                   
 | VinDAX          |              |                |                   |                   
