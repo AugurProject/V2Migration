@@ -5,36 +5,36 @@
 
 ####  Exchanges:
 
-| Name            | Acknowledged | REPv1 -> REPv2 | Use It or Lose It |
+| Name            | Acknowledged | REP -> REPv2 | Use It or Lose It |
 |-----------------|--------------|----------------|-------------------|
-| Abra            |              |                |                   |                   
-| Bibox           |              |                |                   |                   
-| Bilaxy          |              |                |                   |                   
+| Abra            |**✘**                   |                |                   |                   
+| Bibox           |**✘**                   |                |                   |                   
+| Bilaxy          |                 |                |                   |                   
 | Binance         |**✘**         |                |                   |                   
 | Binance US      |**✘**         |                |                   |                   
 | BitBay          |**✘**               |                |                   |                   
 | Bitbns          |**✘**               |                |                   |                   
 | Bitfinex        |**✘**               |                |                   |                   
 | Bithumb         |**✘**         |                |                   |                   
-| Bitmart         |              |                |                   |                   
+| Bitmart         |**✘**                   |                |                   |                   
 | Bitsdaq         |              |                |                   |                   
 | Bittrex         |              |                |                   |                   
 | Chaoex          |              |                |                   |                   
 | Coinbase        |**✘**         |                |                   |                   
 | CoinBene        |**✘**               |                |                   |                   
 | CoinEx          |**✘**               |                |                   |                   
-| CoinField       |              |                |                   |                   
-| CoinTiger       |              |                |                   |                   
+| CoinField       |**✘**                   |                |                   |                   
+| CoinTiger       |**✘**                   |                |                   |                   
 | Crex24          |**✘**               |                |                   |                   
 | CROSS Exch      |              |                |                   |                   
-| Exrates         |              |                |                   |                   
+| Exrates         |**✘**                   |                |                   |                   
 | Folgory         |              |                |                   |                   
 | Gate IO         |**✘**               |                |                   |                   
 | GOPAX           |              |                |                   |                   
 | Hanbitco        |              |                |                   |                   
 | HitBTC          |**✘**               |                |                   |                   
-| Independent Res |              |                |                   |                   
-| Indodax         |              |                |                   |                   
+| Independent Res |**✘**                   |                |                   |                   
+| Indodax         |**✘**                   |                |                   |                   
 | Kraken          |**✘**         |                |                   |                   
 | LAToken         |              |                |                   |                   
 | Livecoin        |**✘**               |                |                   |                   
@@ -46,7 +46,7 @@
 | ProBit          |              |                |                   |                   
 | Rekeningku      |              |                |                   |                   
 | RightBTC        |              |                |                   |                   
-| Upbit           |              |                |                   |                   
+| Upbit           |**✘**                   |                |                   |                   
 | Valr            |              |                |                   |                   
 | VCC             |              |                |                   |                   
 | VinDAX          |              |                |                   |                   
