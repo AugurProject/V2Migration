@@ -1,3 +1,7 @@
+# NOTE:
+
+The current addresses in this repo are NOT yet final. Please make sure you are running the LATEST version of this repository before running on mainnet.
+
 # V2Migration
 A Python tool for migrating REP from Augur V1 to V2
 
