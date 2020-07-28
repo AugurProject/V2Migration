@@ -1,7 +1,3 @@
-# NOTE:
-
-The current addresses in this repo are NOT yet final. Please make sure you are running the LATEST version of this repository before running on mainnet.
-
 # V2Migration
 A Python tool for migrating REP from Augur V1 to V2
 
@@ -15,7 +11,7 @@ A Python tool for migrating REP from Augur V1 to V2
 3. virtualenv venv
 4. . venv/bin/activate
 5. pip install -e .
-6. ETHEREUM_PRIVATE_KEY=[YOUR_PRIVATE_KEY] migrate
+6. ETHEREUM_HTTP=[YOUR_ETHEREUM_HTTP_ENDPOINT] ETHEREUM_PRIVATE_KEY=[YOUR_PRIVATE_KEY] migrate
 ```
 
 ## Setup
@@ -38,6 +34,8 @@ pip install -e .
 When run the script will convert all V1 REP owned by an account into V2 REP.
 
 To run the private key of the account must be available as an environment variable `ETHEREUM_PRIVATE_KEY`.
+
+If a local Ethereum endpoint is not running you will also need to specify one with the enviornment variable `ETHEREUM_HTTP`.
 
 Specifying this value script is run with the command:
 

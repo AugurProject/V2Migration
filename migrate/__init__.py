@@ -8,10 +8,7 @@ from eth_account import Account
 from migrate.legacy_rep import LEGACY_REP_ADDRESS, LEGACY_REP_ABI
 from migrate.rep import REP_ADDRESS, REP_ABI
 
-CHAIN_ID = 103
-GAS_PRICE_IN_GWEI = '5'
-
-w3 = Web3(HTTPProvider())
+w3 = Web3(HTTPProvider(os.environ.get('ETHEREUM_HTTP')))
 legacyReputationToken = w3.eth.contract(address=LEGACY_REP_ADDRESS, abi=LEGACY_REP_ABI)
 reputationToken = w3.eth.contract(address=REP_ADDRESS, abi=REP_ABI)
 
@@ -35,7 +32,7 @@ def migrate():
         sys.exit()
 
     v1_display_balance = v1_balance / 10**18
-    yes = input("\nThe Provided Account %s has a V1 REP balance of %i.\n\nEnter 'Y' to convert that balance into V2 REP.\n\n" % (address, v1_display_balance))
+    yes = input("\nThe Provided Account %s has a V1 REP balance of %f.\n\nEnter 'Y' to convert that balance into V2 REP.\n\n" % (address, v1_display_balance))
 
     if yes != "Y" and yes != "y":
         print("Did not migrate")
@@ -61,9 +58,9 @@ def doMigration(account, nonce):
 
 def sign_and_wait_for_transaction(contract_function, account, nonce, gas, name):
     transaction = contract_function.buildTransaction({
-        'chainId': CHAIN_ID,
+        'chainId': w3.eth.chainId,
         'gas': gas,
-        'gasPrice': w3.toWei(GAS_PRICE_IN_GWEI, 'gwei'),
+        'gasPrice': w3.eth.gasPrice,
         'nonce': nonce,
     })
     signed_transaction = account.signTransaction(transaction)
